@@ -5,7 +5,6 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from "./Home";
 import Atv1 from "../atv/Atv1";
 import Atv2 from "../atv/Atv2";
-import Teste from "../atv/Teste";
 
 export default function MinhasRotas()
 {
@@ -16,7 +15,6 @@ export default function MinhasRotas()
                 <Route path="/" element={<Home />} />
                 <Route path="/Atv1" element={<Atv1/>} />
                 <Route path="/Atv2" element={<Atv2/>} />
-                <Route path="/Teste" element={<Teste/>}/>
             </Routes>
         </BrowserRouter>
     );

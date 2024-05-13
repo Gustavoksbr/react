@@ -1,12 +1,9 @@
-import { useState } from 'react';
-
 export default function Setinha(props) {
 
-    const [zero, setZero] = useState();
 
     function zerar(){
-        setZero('zerar');
-        props.recarregar(zero);
+
+        props.recarregar('zerar');
     }
     return (
         <>

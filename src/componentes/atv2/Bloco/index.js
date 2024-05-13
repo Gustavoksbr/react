@@ -5,7 +5,7 @@ import './Bloco.css';
 
 export default function Bloco() {
     const [total, setTotal] = useState(0)
-    const[zerado, setZerado] = useState(false);
+    const[zerado, setZerado] = useState(true);
 
     function MudarTotal(acao) {
         if (acao === 'aumentar')
