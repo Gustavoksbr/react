@@ -1,0 +1,13 @@
+.Bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 205, 205);
+    width: 50%;
+}
+
+.Casal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
