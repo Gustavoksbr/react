@@ -1,7 +1,7 @@
 import Relogio from '../../componentes/atv1/Relogio';
 import Letreiro from '../../componentes/atv1/Letreiro';
 import {Link} from "react-router-dom";
-import '../Centralizar.css';
+import '../CSS/index.css';
 
 export default function Atv1()
 {

@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import Bloco from "../../componentes/atv2/Bloco";
-import '../Centralizar.css';
+import '../CSS/index.css';
 
 
 export default function Atv2()

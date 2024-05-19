@@ -24,8 +24,7 @@ export default function Bloco() {
                 setTotal(0);
             }
     }
-
-
+    
     return (
         <div className='Bloco'>
             <Setinha recarregar={zerar => MudarTotal(zerar)}/>
