@@ -6,6 +6,7 @@ import Home from "./Home";
 import Atv1 from "../atv/Atv1";
 import Atv2 from "../atv/Atv2";
 import Atv3 from "../atv/Atv3";
+import Teste from '../atv/Teste';
 import Toolbar_ from "../atv/Atv3/Toolbar_";
 import Gallery_ from "../atv/Atv3/Gallery_";
 import Counter_ from "../atv/Atv3/Counter_";
@@ -31,6 +32,7 @@ export default function MinhasRotas()
                 <Route path="/Atv1" element={<Atv1/>} />
                 <Route path="/Atv2" element={<Atv2/>} />
                 <Route path="/Atv3" element={<Atv3/>} />
+                <Route path="/Teste" element={<Teste/>} />
                 <Route path="/Atv3/Counter_" element={<Counter_/>}/>
                 <Route path="/Atv3/Toolbar_" element={<Toolbar_/>} />
                 <Route path="/Atv3/Gallery_" element={<Gallery_/>}/>
