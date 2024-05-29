@@ -1,4 +1,4 @@
-// src/components/index.js
+
 
 import GalleryProfile_ from "../atv/Atv3/comp/GalleryProfile_";
 import TodoList_ from "../atv/Atv3/comp/TodoList_";

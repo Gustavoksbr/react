@@ -1,4 +1,4 @@
-// src/components/index.js
+
 
 import Toolbar_ from "../atv/Atv4/comp/Toolbar_";
 import Gallery_ from "../atv/Atv4/comp/Gallery_";
