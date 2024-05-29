@@ -16,6 +16,9 @@ const Home = () =>{
                     <li>
                         <Link to="/Atv3">Atividade 3</Link>
                     </li>
+                    <li>
+                        <Link to="/Atv4">Atividade 4</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

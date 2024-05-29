@@ -1,29 +1,19 @@
-import { useState } from 'react';
-
-let nextId = 0;
+import { people } from './data.js';
+import { getImageUrl } from './utils.js';
 
 export default function List() {
-  const [name, setName] = useState('');
-  const [artists, setArtists] = useState([]);
-
-  return (
-    <>
-      <h1>Inspiring sculptors:</h1>
-      <input
-        value={name}
-        onChange={e => setName(e.target.value)}
+  const listItems = people.map(person =>
+    <li key={person.id}>
+      <img
+        src={getImageUrl(person)}
+        alt={person.name}
       />
-      <button onClick={() => {
-        setArtists([
-          ...artists,
-          { id: nextId++, name: name }
-        ]);
-      }}>Add</button>
-      <ul>
-        {artists.map(artist => (
-          <li key={artist.id}>{artist.name}</li>
-        ))}
-      </ul>
-    </>
+      <p>
+        <b>{person.name}</b>
+          {' ' + person.profession + ' '}
+          known for {person.accomplishment}
+      </p>
+    </li>
   );
+  return <ul>{listItems}</ul>;
 }

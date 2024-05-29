@@ -6,7 +6,7 @@ import '../CSS/index.css';
 
 export default function Atv3() {
 
-    const lista = ["Toolbar", "Gallery", "Counter", "MovingDot", "ShapeEditor", "Form", "Form2", "Form3", "List", "List2", "List3", "List4", "CounterList", "BucketList"];
+     const lista = ["GalleryProfile","TodoList","TodoList2","Profile","Profile2","NList","TeaGathering"];
 
     return (
         <div className='Principal'>
@@ -15,7 +15,7 @@ export default function Atv3() {
 
             
         {lista.map((elemento) => (
-          <li key={elemento.id}><Link to = {'/Atv3/' + elemento+'_'}>{elemento}</Link></li>
+          <li key={elemento.id}><Link to = {'/Atv3/comp/' + elemento+'_'}>{elemento}</Link></li>
         ))}
             </ul>
 
